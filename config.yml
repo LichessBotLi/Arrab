@@ -178,7 +178,7 @@ greeting:
   # Any other words in curly braces will be removed.
   hello: "Get ready, because you're gonna play the most deadl- I mean the most fun bot in the world." # Message to send to opponent chat at the start of a game
   goodbye: "Haha! Welp buddy, GG's! See ya' later!" # Message to send to opponent chat at the end of a game
-  hello_spectators: "Wanna see my destroy my opponent? Here ya' go! Don't hesitate to type !help for a list of commands I can respond to." # Message to send to spectator chat at the start of a game
+  hello_spectators: "Wanna see me destroy my opponent? Here ya' go! Don't hesitate to type !help for a list of commands I can respond to." # Message to send to spectator chat at the start of a game
   goodbye_spectators: "Thanks for watching! Did you have FuNNN seeing my game? Catch ya' later ; I've got more important business to do!" # Message to send to spectator chat at the end of a game
 
 # pgn_directory: "game_records"    # A directory where PGN-format records of the bot's games are kept
