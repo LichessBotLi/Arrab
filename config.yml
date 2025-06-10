@@ -179,7 +179,7 @@ greeting:
   hello: "Get ready, because you're gonna play the most deadl- I mean the most fun bot in the world." # Message to send to opponent chat at the start of a game
   goodbye: "Haha! Welp buddy, GG's! See ya' later!" # Message to send to opponent chat at the end of a game
   hello_spectators: "Wanna see my destroy my opponent? Here ya' go! Don't hesitate to type !help for a list of commands I can respond to." # Message to send to spectator chat at the start of a game
-  goodbye_spectators: "Thanks for watching! Did you have FuNNN seeing my game? Catch ya' later ; I've got more important buisness to do!" # Message to send to spectator chat at the end of a game
+  goodbye_spectators: "Thanks for watching! Did you have FuNNN seeing my game? Catch ya' later ; I've got more important business to do!" # Message to send to spectator chat at the end of a game
 
 # pgn_directory: "game_records"    # A directory where PGN-format records of the bot's games are kept
 # pgn_file_grouping: "game"        # How to group games into files. Options are "game", "opponent", and "all"
@@ -205,7 +205,7 @@ matchmaking:
 #    - 2
   opponent_min_rating: 3000         # Opponents rating should be above this value (600 is the minimum rating in lichess).
   opponent_max_rating: 4000        # Opponents rating should be below this value (4000 is the maximum rating in lichess).
-  opponent_rating_difference: 300  # The maximum difference in rating between the bot's rating and opponent's rating.
+  opponent_rating_difference: 200  # The maximum difference in rating between the bot's rating and opponent's rating.
   rating_preference: "high"        # One of "none", "high", "low".
   opponent_allow_tos_violation: false # Set to 'true' to allow challenging bots that violated the Lichess Terms of Service.
   challenge_mode: "rated"         # Set it to the mode in which challenges are sent. Possible options are 'casual', 'rated' and 'random'.
